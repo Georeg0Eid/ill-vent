@@ -1,0 +1,276 @@
+
+   .header {
+    z-index: 9999;
+    
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    align-items: center;
+  }
+  .header .logoSmall {
+    width: 5.5rem;
+  }
+  
+  .nav__menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    height: 10vh;
+    padding-right: 0.25rem;
+  }
+  .nav__menu a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: none;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+  }
+  .nav__menu a:hover {
+    color: #424890;
+    transition: all 400ms ease;
+  }
+  .nav-scrolled {
+    background-color: #6c63ff;
+    box-shadow: 0 0 3rem  #1f2641;
+  }
+  
+   *{ width: auto; height: auto;background-color:#1f2641 ;
+    background-size: cover; display: block; font-weight: bold ; padding: 2px;text-decoration: none;
+     list-style-position: inside; position: relative;
+   }
+
+h1{
+    font-size: 70px; font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff; text-align: center;
+}
+::placeholder{
+    color: #ffffff; font-size: 10px; font-weight: 300; font-family: Georgia, 'Times New Roman', Times, serif; padding: 4px;
+}
+.form{
+    padding: 3px;
+    outline: 0;
+}
+ uploader {
+    cursor: pointer !important;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+chooseFile {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    padding-left: 200px;
+    margin-right: -200px;
+  }
+input[type=text] {
+height: 25px; padding: 3px; border-radius: 15px; margin-bottom: 5px; border: 5px solid rgb(251, 245, 245) ; background: transparent;
+ cursor: pointer; position: relative; overflow: hidden
+}
+
+  .check-box {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .left {
+    display: inline-block;
+flex-direction: column;
+    
+  }
+  .right {
+    display: inline-block;
+    flex-direction: column;
+  }
+  
+  input {
+     appearance: none; -webkit-appearance: none; height: 25px; width: 250px; border-radius: 10px; cursor: pointer; border: 3px solid #f3f0f0;
+     background: transparent ;  display: inline-block;  vertical-align: top; outline: none; gap: 30px; 
+  }
+  
+  label{
+    color: #ffffff;font-size: 30px;font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 500; cursor: pointer; position: relative; padding-inline: inherit;
+}
+#city{color: #fff;border:3px solid ; border-radius: 25px; border-color: white}
+#age{color: #fff;border:3px solid ; border-radius: 25px; border-color: white}
+#sub{color: #fff;}
+#gender{color:#fff;border:3px solid ; border-radius: 25px; border-color: white}
+
+
+input[type=checkbox] :hover{
+    background-color: #15b5ca;
+}
+input[type=checkbox]:checked{
+    background-color: #f9f2f2;
+}
+input[type=checkbox]:after{
+display: block;
+}
+/*
+#sub{
+    width: 200px;
+     padding: 10px 15px; text-align:center; margin: 20px 10px; border-radius:25px ; font-weight: bold ; font-size: larger;
+    border: 2px solid rgb(255, 255, 255) ; background: transparent; cursor: pointer; position: relative; overflow: hidden; color: white;
+}*/
+/*
+#fill{
+  width: 200px;
+   padding: 15px 0; text-align:center; margin: 20px 10px; border-radius:25px ; font-weight: bold ; font-size: larger;
+  border: 2px solid rgb(255, 255, 255) ; background: transparent; cursor: pointer; position: relative; overflow: hidden; color: white;
+}*/
+
+
+* {
+    background-color:#1f2641;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  } 
+   h1,
+   a {
+    color: #fff;
+  }
+   layer {
+    background-color: rgb(132 132 132 / 47%);
+  }
+   form {
+    width: 50%;
+    margin: auto;
+    background-color: #dcdcdcb0;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px rgba(244, 238, 238, 0.1), 0 3px 8px rgba(240, 238, 238, 0.2);
+  }
+  
+  uploader {
+    cursor: pointer !important;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+chooseFile {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    padding-left: 200px;
+    margin-right: -200px;
+  }
+  
+   
+  
+  
+ 
+   span {
+    font-size: 20px;
+    font-weight: 600;
+  }/*
+   #sub{
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+    font-size: 20px;
+    background: transparent;
+    padding: 1px 1px;
+    cursor: pointer;
+    position: relative;
+  }
+  #sub:hover{
+    border: 1px solid rgba(255, 0, 0, 0.925);
+    background: rgba(241, 8, 8, 0.829);
+    transition: 0.5s;
+  }*/ /*
+  #fill{ display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+    font-size: 16px;
+    background: transparent;
+    padding: 12px 34px;
+    cursor: pointer;
+    position: relative;
+
+  }
+  #fill:hover{
+    border: 1px solid rgba(255, 0, 0, 0.925);
+    background: rgba(241, 8, 8, 0.829);
+    transition: 0.5s;
+  } */
+  #fill {
+    display: inline-block;
+    border-radius: 30px;
+    
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 80%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 20px 30px;
+  }
+  
+  #fill {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #fill :after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #fill:hover  {
+    padding-right: 25px;
+    background-color: #4d4c50ad;
+    text-decoration: underline;
+  }
+  
+  #fill:hover {
+    opacity: 1;
+    right: 0;
+  }
+  input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    ;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+  }
+  input[type="submit"]:hover{
+    border-color: #c74a23;
+    transition: .5s;
+  }
+  #sub{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #4d4d4d;
+  }
+  #sub{
+    color:whitesmoke;
+    text-decoration: none;
+  }
+  #sub:hover{
+    text-decoration: none;
+    background: #c74a23
+  }
